@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #05386B;
+    /*color: #05386B*/
+    
+}
+
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+
+/* HEADER */
+
+.header-general-container {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #05386B;
+}
+
+.header-menu-container {
+    background-color: #05386B;
+    width: 70%;
+    height: 8vh;
+
+}
+
+.menu-header-button {
+    width: 100px;
+    height: 8vh;
+    border: none;
+    background-color: transparent;
+    color: #EDF5E1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15pt;
+    
+}
+
+.menu-header-button a {
+    text-decoration: none;
+    color: #EDF5E1;
+    padding: 20px 16px;
+    
+}
+
+.menu-header-button a:hover {
+    text-decoration: none;
+    background-color: #EDF5E1;
+    color: #05386B;
+    
+}
+
+
+
+.menu-header-button:hover {
+    cursor: pointer;
+    color: #05386B;
+}
+
+h2 {
+    color: #EDF5E1;
+    font-size: 25pt;
+    user-select: none;
+}
+
+#btn-menu {
+    border: none;
+    width: 100px;
+    height: 8vh;
+    font-size: 40pt;
+    background-color: transparent;
+}
+
+#btn-menu:hover {
+    cursor: pointer;
+}
+
+
+
+.header-menu-smartphone-display {
+    display: none;
+    
+}
+
+.header-menu-square {
+    display: none;
+    user-select: none;
+}
+
+
+
+
+.header-menu-square label:hover {
+    cursor: pointer;
+}
+
+#login-button-pc-version {
+    border: 2px solid #F64C72;
+    padding: 10px;
+    color: #F64C72;
+}
+
+
+
+/* HEADER - CELULAR - TABLET */
+@media (max-width: 700px) {
+
+
+    .header-general-container {
+        height: 8vh;
+        
+    }
+    .header-menu-logo h2 {
+        font-size: 20pt;
+    }
+
+    .header-menu-container {
+        display: none;
+    }
+
+    .header-menu-smartphone-display-container {
+        display: block;
+        width: 20%;
+        height: 9vh;
+        position: fixed;
+        
+    }
+
+    .header-menu-square {
+        display: block;
+        width: 100px;
+        height: 9vh;
+        font-size: 45pt;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: fixed;
+    }
+    .header-menu-square:hover {
+        cursor: pointer;
+        
+    }
+    .header-menu-menu-options-container {
+        width: 100%;
+        height: 50vh;
+        position: fixed;
+        transition: all 0.3s ease-in-out;
+        border-bottom: 2px solid #EDF5E1;
+    }
+    
+    .header-menu-options-button {
+        width: 100%;
+        height: 12.5vh;
+        background-color: #05386B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-menu-options-button:hover {
+        background-color: #EDF5E1;
+        cursor: pointer;
+        
+    }
+
+    .header-menu-options-button:hover a {
+        color: #05386B;
+    }
+
+    .header-menu-options-centralize {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-menu-options-centralize a {
+        padding: 30px 150px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20pt;
+        color: #EDF5E1;
+        text-decoration: none;
+    }
+
+    #img-menu-smartphone {
+        width: 70px;
+        height: 67px;
+    }
+
+    #img-menu-smartphone-aux {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        margin-left: 70px;
+        margin-top: -20px;
+        transform: rotate(15deg);
+    }
+
+    
+
+    
+
+}
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+
+/* BODY */
+
+.body-general-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
